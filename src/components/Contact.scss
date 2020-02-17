@@ -1,0 +1,49 @@
+/* Component enclosing tag */
+.Contact {
+  padding: 1em;
+  background: #555;
+  width: 220px;
+  display: flex;
+  align-items: center;
+
+  & .avatar{
+    border-radius: 50%;
+    margin-right: 1em;
+    width: 48px;
+    height: 48px;    
+  }
+
+  & .name {
+    margin: 0 0 0.25rem;
+    color: #eee;    
+  }
+
+  & .status{
+    & div{
+      display: flex;
+      align-items: center;
+    }
+
+    & .status-text{
+      color: #999;
+      margin: 0;      
+    }
+
+    & .status-online{
+      background: #aed581;
+    }
+
+    & .status-offline{
+      background: #f4511e;
+    }
+
+    & .status-online, .status-offline{
+      display: inline-block;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      margin-right: 6px;
+    }
+  }
+}
+
