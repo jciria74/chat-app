@@ -21,6 +21,16 @@ class App extends Component {
       name: 'Arturo',
       image: 'https://randomuser.me/api/portraits/men/49.jpg',
       connected: false
+      },
+      {
+        name: 'Sharon',
+        image: 'https://randomuser.me/api/portraits/women/32.jpg',
+        connected: false
+      },
+      {
+      name: 'Jen',
+      image: 'https://randomuser.me/api/portraits/women/49.jpg',
+      connected: false
       }
     ]
   }
@@ -39,6 +49,8 @@ class App extends Component {
         {this.checkForStatus(this.state.contacts[0])}
         {this.checkForStatus(this.state.contacts[1])}
         {this.checkForStatus(this.state.contacts[2])}
+        {this.checkForStatus(this.state.contacts[3])}
+        {this.checkForStatus(this.state.contacts[4])}
       </div>
     );    
   }
