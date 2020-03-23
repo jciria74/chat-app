@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Contact.scss';
+import PropTypes from 'prop-types'
 
 class Contact extends Component {
 
@@ -33,8 +34,13 @@ class Contact extends Component {
       </div>
     )
   }
-
 }
+
+Contact.propTypes = {
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  onlineStatus: PropTypes.bool.isRequired,
+};
 
 
 export default Contact

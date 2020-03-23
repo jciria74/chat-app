@@ -8,17 +8,17 @@ class ContactList extends Component {
       contacts: 
       [
         {
-        name: 'Jaime',
+        name: 'Jaume Pons',
         image: 'https://randomuser.me/api/portraits/men/51.jpg',
         connected: false
         },
         {
-        name: 'Conchi',
+        name: 'Conchi Carducas',
         image: 'https://randomuser.me/api/portraits/women/50.jpg',
         connected: true
         },
         {
-        name: 'Arturo',
+        name: 'Benito Camelas',
         image: 'https://randomuser.me/api/portraits/men/49.jpg',
         connected: false
         },
